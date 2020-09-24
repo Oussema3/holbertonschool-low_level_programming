@@ -1,9 +1,9 @@
 #include "holberton.h"
- /**
-  * print_triangle - showing triangles using "x#" character
-  * @size: integer
-  * Return: triangle
-  */
+/**
+ * print_triangle - draw a triangle using the "#" character
+ * @size: integer that determines the demntions of the triangle
+ * Return: square
+ */
 void print_triangle(int size)
 {
 
