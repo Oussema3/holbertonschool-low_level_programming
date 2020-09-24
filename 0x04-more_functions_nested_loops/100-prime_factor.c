@@ -15,7 +15,6 @@ while (i % j == 0)
 i = i / j;
 j = j + 1;
 }
-printf("%ld", i);
-printf("\n");
+printf("%ld\n", i);
 return (0);
 }
