@@ -11,7 +11,7 @@ for (a = 0; str[a]; a++)
 {}
 if (a % 2 == 0)
 {
-c = i / 2;
+c = a / 2;
 for (b = c; b < a; b++)
 {
 _putchar (str[b]);
