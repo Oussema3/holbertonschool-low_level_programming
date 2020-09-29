@@ -7,11 +7,12 @@
  */
 void print_array(int *a, int n)
 {
-int a;
-for (a = 0; a < n; a++)
+int i;
+
+for (i = 0; i < n; i++)
 {
-printf("%d", a[a]);
-if (a == n - 1)
+printf("%d", a[i]);
+if (i == n - 1)
 continue;
 printf(", ");
 }
