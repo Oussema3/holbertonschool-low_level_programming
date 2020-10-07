@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * Butterfly - first function
+ * Butterfly - fiirst function
  * @s: given string
  * @i: counter
  * @a: lenght of string
