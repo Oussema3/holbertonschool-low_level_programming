@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- *factorial - return the factorial of a giiven number
+ *factorial - Return the factorial of a giiven number
  *@n: int
  *Return: -1 (n lower of 0) , result
  */
