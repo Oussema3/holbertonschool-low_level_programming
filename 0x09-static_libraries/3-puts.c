@@ -1,16 +1,16 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
- * _puts_recursion - print a string
- *@s: wanted string
+ *_puts - write a string
+ *@str: the wanted string
  */
-void _puts_recursion(char *s)
+void _puts(char *str)
 {
-  if (*s == '\0')
+  int i;
+
+  for (i = 0; *str != '\0'; i++)
     {
-      _putchar('\n');
-      return;
+      _putchar (*str);
+      str++;
     }
-  _putchar(*s);
-  _puts_recursion(s + 1);
+  _putchar ('\n');
 }
