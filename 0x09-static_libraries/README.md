@@ -1,0 +1,1 @@
+Static libraries are made with love - "Spongebob-square-pants"
