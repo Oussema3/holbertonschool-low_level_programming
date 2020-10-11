@@ -8,20 +8,27 @@
  */
 int main(int argc, char *argv[])
 {
-int a;
-int b;
+int add = 0;
+int a = 0, b = 0;
 
-argv[0] = "0";
-if (argc - 1 > 1 && argc - 1 < 3)
+if (argc < 2)
 {
-a = atoi(argv[1]);
-b = atoi(argv[2]);
-printf("%d\n", a + b);
+printf("0\n");
 return (0);
 }
-else
+for (a = 1; a < argc; a++)
+{
+for (b = 0; argv[a][b] != '\0'; b++)
+{
+if (!(argv[a][b] >= '0' && argv[a][b] <= '9'))
 {
 printf("Error\n");
 return (1);
 }
+}
+}
+for (a = 1; a < argc; a++)
+add += atoi(argv[a]);
+printf("%d\n", add);
+return (0);
 }
