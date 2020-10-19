@@ -2,12 +2,11 @@
 /**
  *length - give us length of a string
  *@L: string to calculate it's length
- *Return: obviously the lenght of the string  
+ *Return: obviously the lenght of the string
  */
 int length(char *L)
 {
 int i = 0;
-
 while (L[i] != '\0')
 i++;
 return (i);
