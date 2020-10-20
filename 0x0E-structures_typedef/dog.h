@@ -5,11 +5,12 @@
  *struct dog - struct
  *@name: this is
  *@age: SO OBVIOUS
- *@owner: Why should i even decribe those element ?
+ *@owner: Why i even decribe those element ?
  */
-struct dog {
-char* name;
+struct dog
+{
+char *name;
 float age;
-char* owner;
+char *owner;
 };
 #endif /* DOG */
