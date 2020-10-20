@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "dog.h"
-#include <math.h>
+
 /**
  *print_dog - Finally writing in the STRUCT
  *@d: pointer
@@ -12,10 +12,8 @@ return;
 if (d->name == NULL)
 printf("Name: (nil)\n");
 else
-printf("Name: %s\n", d->name);
-if (isnan(d->age))
-printf("Age: (nil)\n");
-else
+  printf("Name: %s\n", d->name);
+
 printf("Age: %f\n", d->age);
 if (d->owner == NULL)
 printf("Owner: (nil)\n");
