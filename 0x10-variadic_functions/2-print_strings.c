@@ -3,12 +3,12 @@
 #include <stdlib.h>
 #include <stdarg.h>
 /**
- * print_numbers - return a list of arguments
+ * print_strings - return a list of arguments
  * @n: number of elements
  * @separator: between element of list
  * Return: list of arguments
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 va_list rnd;
 unsigned int i = 0;
