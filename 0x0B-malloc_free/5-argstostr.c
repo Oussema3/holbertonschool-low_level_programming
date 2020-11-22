@@ -3,7 +3,7 @@
 /**
  * argstostr - concating  arguments
  *@ac: integer
- *@av: char 
+ *@av: char
  *Return: pointer
  */
 char *argstostr(int ac, char **av)
