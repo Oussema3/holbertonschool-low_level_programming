@@ -26,7 +26,7 @@ if (b == 0)
 printf("Error\n");
 exit(100);
 }
-else
+
 return (a / b);
 }
 /**
@@ -42,7 +42,7 @@ if (b == 0)
 printf("Error\n");
 exit(100);
 }
-else
+
 return (a % b);
 }
 /**
