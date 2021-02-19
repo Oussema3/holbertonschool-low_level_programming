@@ -1,0 +1,12 @@
+# So the thing is 2 tasks can be accomplished by this task so !!!
+
+CC = gcc
+
+SRC = main.c holberton.c
+
+OBJ = $(SRC:%.c=%.o)
+
+NAME = holberton
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
