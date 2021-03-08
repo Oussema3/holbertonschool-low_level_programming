@@ -6,9 +6,9 @@
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-  size_t i = 0;
+size_t i = 0;
 
-  for (; h != NULL; i++)
-    h = h->next;
-  return (i);
+for (; h != NULL; i++)
+h = h->next;
+return (i);
 }
